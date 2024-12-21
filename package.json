@@ -1,0 +1,16 @@
+{
+  "name": "littlejs-breakout",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "littlejsengine": "^1.10.7",
+    "serve": "^14.2.4"
+  }
+}
