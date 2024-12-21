@@ -2,9 +2,10 @@
   "name": "littlejs-breakout",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "npx serve .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write ."
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +13,8 @@
   "dependencies": {
     "littlejsengine": "^1.10.7",
     "serve": "^14.2.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
   }
 }
